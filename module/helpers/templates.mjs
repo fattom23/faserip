@@ -7,9 +7,13 @@
   return loadTemplates([
 
     // Actor partials.
-    "systems/boilerplate/templates/actor/parts/actor-features.html",
-    "systems/boilerplate/templates/actor/parts/actor-items.html",
-    "systems/boilerplate/templates/actor/parts/actor-spells.html",
-    "systems/boilerplate/templates/actor/parts/actor-effects.html",
+    "systems/faserip/templates/actor/parts/actor-features.html",
+    "systems/faserip/templates/actor/parts/actor-items.html",
+    "systems/faserip/templates/actor/parts/actor-spells.html",
+    "systems/faserip/templates/actor/parts/actor-effects.html",
+
+    // Item partials.
+    "systems/faserip/templates/actor/parts/weapon-sheet.html",
   ]);
 };
+
