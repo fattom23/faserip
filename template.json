@@ -1,6 +1,6 @@
 {
   "Actor": {
-    "types": ["character", "npc"],
+    "types": ["hero", "vehicle", "support", "villian"],
     "templates": {
       "base": {
         "health": {
@@ -50,24 +50,46 @@
     }
   },
   "Item": {
-    "types": ["item", "feature", "spell"],
+    "types": ["weapon", "talent", "contacts", "power"],
     "templates": {
-      "base": {
+      "itemDescription": {
         "description": ""
+      },
+      "weaponStats": {
+        "range": "range",
+        "price": "price",
+        "damage": "damage",
+        "type": "force",
+        "rate": "rate",
+        "shots": "shots",
+        "material": "material",
+        "strength": "strength"
       }
     },
-    "item": {
-      "templates": ["base"],
-      "quantity": 1,
-      "weight": 0,
-      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+    "weapon": {
+      "templates": ["itemDescription", "weaponStats"]
+      
     },
-    "feature": {
-      "templates": ["base"]
+    "talent": {
+      "templates": ["itemDescription"],
+      "talentBonus": "",
+      "talentAtribAppl": "",
+      "talentDef": ""
     },
-    "spell": {
-      "templates": ["base"],
-      "spellLevel": 1
+    "contacts": {
+      "templates": ["itemDescription"],
+      "contactName": "",
+      "contactOccupation": "",
+      "cotactBoP": "",
+      "contactTtC": "",
+      "contactPrac": ""
+    },
+    "power": {
+      "powerType": "",
+      "powerRank": "",
+      "powerRange": "",
+      "powerArea": "",
+      "powerDef": ""
     }
   }
 }

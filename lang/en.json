@@ -1,22 +1,69 @@
 {
-  "BOILERPLATE.AbilityStr": "Strength",
-  "BOILERPLATE.AbilityCon": "Constitution",
-  "BOILERPLATE.AbilityDex": "Dexterity",
-  "BOILERPLATE.AbilityInt": "Intelligence",
-  "BOILERPLATE.AbilityWis": "Wisdom",
-  "BOILERPLATE.AbilityCha": "Charisma",
+  "FASERIP": {
+      "attack": {
+          "none": "",
+          "slugfest": "Slugfest",
+          "range": "Ranged",
+          "blunthrow": "Blunt Thrown",
+          "edgedthrow": "Edged Throw",
+          "shoot": "Shoot",
+          "force": "Force",
+          "energy": "Energy",
+          "magical": "Magical",
+          "edgedattack": "Edged Attack"
+      },
+      "weapon": {
+          "damage": "Damage",
+          "price": "Price",
+          "range": "Range",
+          "type": "Type",
+          "rate": "Rate",
+          "shots": "Shots",
+          "material": "Material",
+          "strength": "Strength"
+      },
+      "rankName" : {
+          "shift0": "0",
+          "fe": "Feeble",
+          "pr": "Poor",
+          "ty": "Typical",
+          "gd": "Good",
+          "ex": "Excellent",
+          "rm": "Remarable",
+          "in": "Incredible",
+          "am": "Amazing",
+          "mn": "Monstrous",
+          "un": "Unearthly",
+          "shiftX": "Shift X",
+          "shiftY": "Shift Y",
+          "shiftZ": "Shift Z",
+          "class1000": "Class 1000",
+          "class3000": "Class 3000",
+          "class5000": "Class 5000",
+          "beyond": "Beyond"
+      },
+      "abiltyNames":{
+        "FASERIP.AbilityFig": "Strength",
+        "FASERIP.AbilityCon": "Constitution",
+        "FASERIP.AbilityDex": "Dexterity",
+        "FASERIP.AbilityInt": "Intelligence",
+        "FASERIP.AbilityWis": "Wisdom",
+        "FASERIP.AbilityCha": "Charisma"
+      },
+      "abiltyAbbr": {
+        "FASERIP.AbilityFigAbbr": "fig",
+        "FASERIP.AbilityConAbbr": "con",
+        "FASERIP.AbilityDexAbbr": "dex",
+        "FASERIP.AbilityIntAbbr": "int",
+        "FASERIP.AbilityWisAbbr": "wis",
+        "FASERIP.AbilityChaAbbr": "cha",
 
-  "BOILERPLATE.AbilityStrAbbr": "str",
-  "BOILERPLATE.AbilityConAbbr": "con",
-  "BOILERPLATE.AbilityDexAbbr": "dex",
-  "BOILERPLATE.AbilityIntAbbr": "int",
-  "BOILERPLATE.AbilityWisAbbr": "wis",
-  "BOILERPLATE.AbilityChaAbbr": "cha",
+        "FASERIP.EffectCreate": "Create Effect",
+        "FASERIP.EffectToggle": "Toggle Effect",
+        "FASERIP.EffectEdit": "Edit Effect",
+        "FASERIP.EffectDelete": "Delete Effect",
 
-  "BOILERPLATE.EffectCreate": "Create Effect",
-  "BOILERPLATE.EffectToggle": "Toggle Effect",
-  "BOILERPLATE.EffectEdit": "Edit Effect",
-  "BOILERPLATE.EffectDelete": "Delete Effect",
-
-  "BOILERPLATE.Add": "Add"
+        "FASERIP.Add": "Add"
+      }
+  }
 }
