@@ -42,7 +42,7 @@
           "class5000": "Class 5000",
           "beyond": "Beyond"
       },
-      "abiltyNames":{
+      "attribNames":{
         "FASERIP.AbilityFig": "Strength",
         "FASERIP.AbilityCon": "Constitution",
         "FASERIP.AbilityDex": "Dexterity",
@@ -50,7 +50,7 @@
         "FASERIP.AbilityWis": "Wisdom",
         "FASERIP.AbilityCha": "Charisma"
       },
-      "abiltyAbbr": {
+      "attribAbbr": {
         "FASERIP.AbilityFigAbbr": "fig",
         "FASERIP.AbilityConAbbr": "con",
         "FASERIP.AbilityDexAbbr": "dex",

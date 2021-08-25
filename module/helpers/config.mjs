@@ -1,8 +1,10 @@
 export const FASERIP = {};
 
+
+
  FASERIP.attackTypes = {
   none: "",
-  slugfest: "faserip.attack.slugfest",
+  Bslugfest: "faserip.attack.slugfest",
   range: "faserip.attack.ranged",
   blunthrow: "faserip.attack.bluntthrow",
   edgedthrow: "faserip.attack.edgedthrow",
@@ -26,7 +28,7 @@ FASERIP.weapon = {
 
 FASERIP.rankName = {
   shift0: "faserip.rank.0",
-  fe: "faserip.rank.fe",
+  fe: "FASERIP.rank.fe",
   pr: "faserip.rank.pr",
   ty: "faserip.rank.ty",
   gd: "faserip.rank.gd",
