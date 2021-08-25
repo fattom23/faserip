@@ -1,0 +1,62 @@
+<form class="{{cssClass}}" autocomplete="off">
+  <header class="sheet-header">
+    <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"/>
+    <div class="header-fields">
+      <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="Name"/></h1>
+    </div>
+   <div>
+     <table>
+       <tr>
+         <th>{{ localize "FASERIP.weapon.price"}}</th>
+         <th>{{ localize "FASERIP.weapon.range"}}</th>
+         <th>{{ localize "FASERIP.weapon.damage"}}</th>
+         <th>{{ localize "FASERIP.weapon.type"}}</th>
+         <th>{{ localize "FASERIP.weapon.rate"}}</th>
+         <th>{{ localize "FASERIP.weapon.shots"}}</th>
+         <th>{{ localize "FASERIP.weapon.material"}}</th>
+         <th>{{ localize "FASERIP.weapon.strength"}}</th>
+      </tr>
+       <td><input name="data.price" type="text" value="{{data.price}}" data-dtype="Number" /></td>
+       <td>
+        <select name="data.rankName">
+          {{#select data.rankName}}
+          {{#each config.rankName as |name rank|}}
+          <option value="{{type}}">{{rank}}</option>
+          {{/each}}
+          {{/select}}
+        </select>
+      </td>
+       <td><input name="data.damage" type="text" value="{{data.damage}}" data-dtype="" /></td>
+       <td>
+         <select name="data.attack">
+         {{#select data.attackTypes}}
+         {{#each config.attackTypes as |name type|}}
+         <option value="{{type}}">{{type}}</option>
+         {{/each}}
+         {{/select}}
+       </select>
+      </td>
+      <td><input name="data.rate" type="text" value="{{data.rate}}" data-dtype="Number" /></td>
+      <td><input name="data.shots" type="text" value="{{data.shots}}" /></td>
+      <td>
+        <select name="data.rankName">
+          {{#select data.rankName}}
+          {{#each config.rankName as |name rank|}}
+          <option value="{{type}}">{{rank}}</option>
+          {{/each}}
+          {{/select}}
+        </select>
+      </td>
+      <td>
+        <select name="data.rankName">
+          {{#select data.rankName}}
+          {{#each config.rankName as |name rank|}}
+          <option value="{{type}}">{{rank}}</option>
+          {{/each}}
+          {{/select}}
+        </select>
+      </td>
+    </table>
+    {{ editor content=data.description target="data.description" button=true owner=owner editable=editable }}
+  </div>
+</form>
