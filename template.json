@@ -8,6 +8,11 @@
           "min": 0,
           "max": 10
         },
+        "karma": {
+          "value": 10,
+          "min": 0,
+          "max": 0
+        },
         "resrouces": {
           "resRank": "good"
         },
