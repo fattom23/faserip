@@ -1,0 +1,15 @@
+<form class="{{cssClass}}" autocpmplete="off">
+  <div class="sidebar">
+    {{#if (eq actor.type "hero")}}
+    <h1 class="origin">
+      <div data-edit="data.origin" contenteditable="">
+        {{data.origin}}
+      </div>
+    </h1>
+    {{/if}}
+    <img src="{{actor.img}}" data.edit="img" title="{{actor.name}}" />
+    <div class="stats">
+      {{> "systems/faserip/templates/actor/parts/partials/hero-stat-block.html"}}
+    </div>
+  </div>
+</form>

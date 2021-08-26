@@ -52,6 +52,7 @@ FASERIP.rankName = {
   "str": "FASERIP.AbilityStr",
   "end": "FASERIP.AbilityEnd",
   "rea": "FASERIP.AbilityRea",
+  "intu": "faserip.AbilityIntu",
   "psy": "FASERIP.AbilityPsy",
 };
 

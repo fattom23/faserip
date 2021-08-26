@@ -20,7 +20,7 @@
   "gridDistance": 44,
   "gridUnits": "yd",
   "primaryTokenAttribute": "Health",
-  "initiative": "1d10 + @initModifier",
+  "initiative": "1d10 + @intuModifier",
   "url": "",
   "manifest": "",
   "download": "",
