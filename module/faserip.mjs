@@ -4,7 +4,7 @@ import FaseripItemSheet from "./sheets/FaseripItemSheet.mjs";
 
 async function preloadHandlebarsTemplates() {
     const templatePaths = [
-        "systems/faserip/templates/actor/parts/partial/hero-attrib-block.html",
+        "systems/faserip/templates/actor/parts/hero-attrib-block.html",
     ];
 
     return loadTemplates(templatePaths)

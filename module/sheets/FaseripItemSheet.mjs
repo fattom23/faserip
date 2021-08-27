@@ -1,5 +1,7 @@
 export default class FaseripItemSheet extends ItemSheet {
 
+ 
+
   get template() {
       const path = "systems/faserip/templates/item";
       return `${path}/weapon-sheet.html`;

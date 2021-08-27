@@ -2,7 +2,7 @@ export default class FaseripHeroSheet extends ActorSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       template: "systems/faserip/templates/actor/hero-sheet.html",
-      classes: ["faserip", "sheet", "hero"]
+      classes: ["FASERIP", "sheet", "hero"]
     });
   }
 
