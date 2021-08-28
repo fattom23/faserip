@@ -11,6 +11,8 @@ getData() {
   const data = super.getData();
   data.config = CONFIG.FASERIP;
   data.weapons = data.items.filter(function(item) {return item.type == "weapon"})
+  data.powers = data.items.filter(function(item) {return item.type == "power"})
+  console.log(data)
   return data;
   }
 

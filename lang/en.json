@@ -1,5 +1,5 @@
 {
-  "FASERIP": {
+  "faserip": {
       "attack": {
           "none": "",
           "slugfest": "Slugfest",
@@ -43,12 +43,13 @@
           "beyond": "Beyond"
       },
       "attribNames":{
-        "FASERIP.AbilityFig": "Strength",
-        "FASERIP.AbilityCon": "Constitution",
-        "FASERIP.AbilityDex": "Dexterity",
-        "FASERIP.AbilityInt": "Intelligence",
-        "FASERIP.AbilityWis": "Wisdom",
-        "FASERIP.AbilityCha": "Charisma"
+        "AbilityStr": "Strength",
+        "AbilityFig": "Fighting",
+        "AbilityEnd": "Endurance",
+        "AbilityAgi": "Agility",
+        "AbilityRea": "Reason",
+        "AbilityIntu": "Intuition",
+        "AbilityPsy": "Psyche"
       },
       "attribAbbr": {
         "FASERIP.AbilityFigAbbr": "fig",

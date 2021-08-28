@@ -10,13 +10,13 @@
         },
         "background": "",
         "attributes": {
-          "fig": "fighting",
-          "agi": "agility",
-          "str": "strength",
-          "end": "endurance",
-          "rea": "reason",
-          "intu": "intuition",
-          "pys": "psyche"
+          "fig": 20,
+          "agi": 20,
+          "str": 20,
+          "end": 20,
+          "rea": 20,
+          "intu": 20,
+          "psy": 20
         }
       },
       "secondary": {
